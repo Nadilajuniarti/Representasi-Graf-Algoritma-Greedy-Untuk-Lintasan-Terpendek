@@ -1,0 +1,3 @@
+#Latihan 3 | Menghubungkan graf dan matriks
+degree = np.sum(A > 0,axis=1)
+print(degree)
