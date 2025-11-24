@@ -1,0 +1,21 @@
+#latihan 2 | operasi matriks
+import numpy as np
+#Diberikan matriks:
+M1 =np.array([[1,3,2],[4,1,6]])
+M2 =np.array([[2,1,3],[0,5,2]])
+#Penjumlahan matriks
+M_tambah = M1 + M2
+print("penjumlahan matriks:")
+print(M_tambah)
+#Pengurangan matriks
+M_kurang = M1 - M2
+print("pengurangan matriks:")
+print(M_kurang)
+#Transpose matriks
+M_Transpose = M1.T
+print("matriks transpose:")
+print(M_Transpose)
+#Perkalian matriks (Dot Product)
+M_kali = M1 @ M2.T
+print("Perkalian matriks:")
+print(M_kali)
